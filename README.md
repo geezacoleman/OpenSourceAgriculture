@@ -1,5 +1,8 @@
 # OpenSourceAgriculture (OSA)
-Welcome to the OSA repository for all things open-source in agricultural technology (agritech) development. This accompanies the OpenSourceAgriculture newsletter, you can sign up to [here](https://opensourceag.beehiiv.com/subscribe). 
+![osag - full (2)](https://user-images.githubusercontent.com/51358498/230220611-5b72ec57-3b41-480d-904d-80c1629e42c3.png)
+
+
+Welcome to the OSA repository for all things open-source in agricultural technology (agritech) development. This accompanies the OpenSourceAgriculture newsletter, which you can sign up to [here](https://opensourceag.beehiiv.com/subscribe). 
 
 The idea behind this repository is to collate all open-source datasets and projects in agritech in one place for easy reference and to get a better picture of what is out there.
 
@@ -25,6 +28,7 @@ If you see a dataset is missing or you find an error in the tables, please submi
 | [Carrot-Weed](https://github.com/lameski/rgbweeddetection)| Segmentation  | 39| 2| carrot (Daucus carota ssp. sativus), unspecified weeds|  |
 | [Corn/Lettuce/Radish](https://github.com/zhangchuanyin/weed-datasets)| Classification| 7200| 8| maize (Zea mays), Canada thistle (Cirsium arvense), fat hen (Chenopodium album), bluegrass (Poa spp.), lettuce, radish | |
 | [CottonWeeds](https://www.kaggle.com/yuzhenlu/cottonweedid15)| Classification| 5187| 15           | morningglory (Ipomoea spp.), carpetweed (Mollugo verticillata), Palmer amaranth (Amaranthus palmeri), waterhemp (Amaranthus tuberculata), purslane (Portulaca spp.), nutsedge (Cyperus spp.), eclipta (Eclipta prostrata), sicklepod (Senna obtusifolia), spotted spurge (Euphorbia maculata), ragweed (Ambrosia spp.), goosegrass (Eleusine indica), prickly sida (Sida spinosa), crabgrass (Digitaria spp.), swinecress (Lepidium spp.), spurred anoda (Anoda cristata) | |
+| [CottonWeedDet12](https://zenodo.org/record/7535814#.ZC3um3ZByUk) | Object Detection | 5648 (9370 instances) | 12 | |  |
 | [CWF-788](https://github.com/ZhangXG001/Real-Time-Crop-Recognition)| Segmentation  | 788          | 1            | cauliflower (Brassica oleracea var. botrytis) |
 | [CWFID](https://github.com/cwfid)   | Segmentation  | 60           | 2            | carrot, unspecified weeds | |
 | [GrassClover](https://vision.eng.au.dk/grass-clover-dataset/)| Segmentation  | 8000         | 5            | white clover (Trifolium repens), red clover (Trifolium pratense), shepherd’s purse (Capsella bursa-pastoris), unspecified thistle, dandelion (Taraxacum officinale) | |
