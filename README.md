@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/51358498/230220611-5b72ec57-3b41-480d-904d-80c1629e42c3.png" alt="osag" width="40%">
 </div>
 
-Welcome to the OSA repository for all things open-source in agricultural technology (agritech) development. This accompanies the OpenSourceAgriculture newsletter, which you can sign up to [here](https://openagtech.beehiiv.com/subscribe). 
+Welcome to the OSA repository for all things open-source in agricultural technology (agritech) development. This accompanies the OpenSourceAg newsletter, which you can sign up to [here](https://openagtech.beehiiv.com/subscribe). 
 
 The idea behind this repository is to collate all open-source datasets and projects in agtech in one place for easy reference and to get a better picture of what is out there.
 
