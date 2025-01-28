@@ -59,6 +59,7 @@ Annotated image data is the backbone of precision agricultural operations such a
 | Dataset | Task | Image Number | Classes | Description |
 |---------|------|--------------|---------|-----------|
 | [IP102](https://github.com/xpwu95/IP102) | Classification/ object detection | Classification: >75,000, bounding box: 19,000 | 102 | A very large open-source dataset of insect pests. The IP102 is annotated with a hierarchical taxonomy and the insect pests which mainly affect one specific agricultural product are grouped into the same upper-level category. [The full class list](https://github.com/xpwu95/IP102/blob/master/classes.txt)|
+|[BIOSCAN-1M](https://github.com/bioscan-ml/BIOSCAN-1M)|Classification|1,128,308|16|The BIOSCAN-1M Insect dataset consists of specimens mostly collected from three countries (Costa Rica, Canada, and South Africa) using Malaise traps. RGB images of the organisms were taken with a Keyence VHX-7000 microscope.|
 
 </details>
 
@@ -121,5 +122,7 @@ Annotated image data is the backbone of precision agricultural operations such a
 | [AgOpenGPS](https://discourse.agopengps.com/) | GPS Guidance | A globally popular open-source GPS guidance system for tractors and implements, with substantial user base and development community. AgOpenGPS features a substantial user interface for additional features such as variable rate and mapping. |
 | [OpenWeedLocator (OWL)](https://github.com/geezacoleman/OpenWeedLocator) | Site-specific weed control | A DIY weed detection device based around the Raspberry Pi and Google Coral. Complete instructions for building and deploying. |
 | [Twisted Fields - Acorn](https://github.com/Twisted-Fields/acorn-robot-electronics) | Robotic Platform | Acorn is a solar-powered, light-weight, and open source Precision Farming Rover (PFR) for in-field use. |
+| [Insect Detect](https://maxsitt.github.io/insect-detect-docs/#background) | Insect monitoring | Build your own insect-detecting camera trap for automated monitoring |
+|[StickyPi](https://doc.sticky-pi.com/)|Insect monitoring|A high-frequency smart insect trap to study daily activity in the field|
 
 </details>
