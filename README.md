@@ -14,6 +14,7 @@ If you see a dataset is missing or you find an error in the tables, please submi
   * [Weeds](#weeds)
   * [Insects](#insects)
   * [Diseases](#diseases)
+  * [Forestry](#forestry)
   * [Crop Phenotyping](#crop-phenotyping)
   * [Fruit Counting](#fruit-counting)
 * [Algorithm Development](#algorithm-development)
@@ -82,7 +83,19 @@ Annotated image data is the backbone of precision agricultural operations such a
 
 | Dataset | Task | Image Number | Classes | Description |
 |---------|------|--------------|---------|-----------|
-| [Global Wheat Head Dataset](http://www.global-wheat.com/)| Object detection/ segmentation | GWHD2020 - 4700, GWHD2021 - 6422 | wheat heads | A field-collected dataset with wheat heads annotated with either bounding boxes (2020) or segmentation (2021). The GWHD2021 builds on the GWHD2020 by adding 1722 images and segmentation level annotations. Both can be downloaded from the link provided. |
+| [Global Wheat Head Dataset](http://www.global-wheat.com/)| Object detection/segmentation | GWHD2020 - 4,700, GWHD2021 - 6,422 | wheat heads | A field-collected dataset with wheat heads annotated with either bounding boxes (2020) or segmentation (2021). The GWHD2021 builds on the GWHD2020 by adding 1722 images and segmentation level annotations. Both can be downloaded from the link provided. |
+
+</details>
+
+## Forestry
+<details>
+<summary>Open-access image datasets for the forestry industry</summary>
+<br>
+
+| Dataset | Task | Image Number | Classes | Description |
+|---------|------|--------------|---------|-----------|
+| [TimberVision](https://github.com/timbervision/timbervision)| Object detection/segmentation/tracking | 2,023 images, 51,338 trunk components | trunk, trunk components | A field-collected dataset and framework for tree-trunk detection and tracking based on RGB images. |
+| [SynthTree43K](https://github.com/norlab-ulaval/PercepTreeV1)| Segmentation/depth | >43,000 synthetic RGB + depth images, >162,000 trees | tree trunks | A synthetic dataset of tree trunks developed with the Unity game engine. |
 
 </details>
 
