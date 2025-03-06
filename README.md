@@ -17,6 +17,8 @@ If you see a dataset is missing or you find an error in the tables, please submi
   * [Forestry](#forestry)
   * [Crop Phenotyping](#crop-phenotyping)
   * [Fruit Counting](#fruit-counting)
+* [Large language models](#large-language-models) 
+* [Geospatial tools](#geospatial-tools) 
 * [Algorithm Development](#algorithm-development)
 * [In-field Deployment](#in-field-deployment)
 
@@ -109,6 +111,28 @@ Annotated image data is the backbone of precision agricultural operations such a
 |---------|------|--------------|---------|-------------|
 | [KFuji RGB-DSM dataset](https://www.grap.udl.cat/en/publications/kfuji-rgb-ds-database/) | Object Detection | 967 (12,839 instances) | 1 (fuji apples) | RGB and Depth images of apple trees for fruit detection and counting. | [KFuji RGB-DSM](https://github.com/ajdude/KFuji_RGB-DSM_Dataset) |
 | [MinneApple](https://rsn.umn.edu/projects/orchard-monitoring/minneapple) | Object detection/ segmentation | 1 (apples) | 1000 (41,000 instances) | A comprehensive dataset for developing apple detection and segmentation algorithms. Representative results are provided for yield estimation. |
+
+</details>
+
+# Large Language Models
+<details>
+<summary>Tools related to use, analysis, development of large language (and vision) models.</summary>
+<br>
+
+| Project Name | Task |  Description |
+|--------------|------|--------------|
+| [Agronomy Arena](https://agronomyarena.com/) | LLM comparison tool for agronomy | Provide an agricultural/plant science question to the model, 2 random AI models are selected to answer, then vote on which one you think is the most helpful response |
+
+</details>
+
+# Geospatial Tools
+<details>
+<summary>Tools for ag-relevant geospatial analyses.</summary>
+<br>
+
+| Project Name | Task |  Description |
+|--------------|------|--------------|
+| [OpenET FARMS Platform](https://openet.gitbook.io/docs/additional-resources/farms) | Landscape-scale evapotranspiration data analysis | Farm and Ranch Management Support (FARMS) system enables the easy access and use (analysis, reports) of evapotranspiration (ET) data from openET. Limited to western USA |
 
 </details>
 
