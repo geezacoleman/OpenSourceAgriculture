@@ -17,6 +17,7 @@ If you see a dataset is missing or you find an error in the tables, please submi
   * [Forestry](#forestry)
   * [Crop Phenotyping](#crop-phenotyping)
   * [Fruit Counting](#fruit-counting)
+  * [Text Datasets](#text-datasets)
 * [Large language models](#large-language-models) 
 * [Geospatial tools](#geospatial-tools) 
 * [Algorithm Development](#algorithm-development)
@@ -114,6 +115,17 @@ Annotated image data is the backbone of precision agricultural operations such a
 
 </details>
 
+## Text Datasets
+<details>
+<summary>Open-access text and multimodal datasets</summary>
+<br>
+
+| Dataset | Task | Description |
+|---------|------|-------------|
+| [Agronomy Resources](https://huggingface.co/datasets/gbstox/agronomy-resources) | Text | A collection of agronomy textbooks and guides from university extension programs. |
+
+</details>
+
 # Large Language Models
 <details>
 <summary>Tools related to use, analysis, development of large language (and vision) models.</summary>
@@ -121,6 +133,7 @@ Annotated image data is the backbone of precision agricultural operations such a
 
 | Project Name | Task |  Description |
 |--------------|------|--------------|
+| [Hugging Face](https://huggingface.co/) | Collaboration platform for ML | A platform for community driven development around ML/LLMs. All popular open-source LLMs are hosted here. The Hugging Face API is widely used for deployment/development. |
 | [Agronomy Arena](https://agronomyarena.com/) | LLM comparison tool for agronomy | Provide an agricultural/plant science question to the model, 2 random AI models are selected to answer, then vote on which one you think is the most helpful response |
 
 </details>
