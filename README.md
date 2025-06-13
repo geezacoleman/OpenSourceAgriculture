@@ -17,6 +17,7 @@ If you see a dataset is missing or you find an error in the tables, please submi
   * [Forestry](#forestry)
   * [Crop Phenotyping](#crop-phenotyping)
   * [Fruit Counting](#fruit-counting)
+  * [Post Harvest](#post-harvest)
   * [Text Datasets](#text-datasets)
 * [Large language models](#large-language-models) 
 * [Geospatial tools](#geospatial-tools) 
@@ -113,6 +114,17 @@ Annotated image data is the backbone of precision agricultural operations such a
 |---------|------|--------------|---------|-------------|
 | [KFuji RGB-DSM dataset](https://www.grap.udl.cat/en/publications/kfuji-rgb-ds-database/) | Object Detection | 967 (12,839 instances) | 1 (fuji apples) | RGB and Depth images of apple trees for fruit detection and counting. | [KFuji RGB-DSM](https://github.com/ajdude/KFuji_RGB-DSM_Dataset) |
 | [MinneApple](https://rsn.umn.edu/projects/orchard-monitoring/minneapple) | Object detection/ segmentation | 1 (apples) | 1000 (41,000 instances) | A comprehensive dataset for developing apple detection and segmentation algorithms. Representative results are provided for yield estimation. |
+
+</details>
+
+## Post Harvest
+<details>
+<summary>Open-access image datasets for post harvest management (sorting, inspection, counting etc.) of produce and crops</summary>
+<br>
+
+| Dataset | Task | Image Number | Classes | Description |
+|---------|------|--------------|---------|-------------|
+| [SemanticSugarBeets](https://github.com/semanticsugarbeets/semanticsugarbeets) | Instance segmentation | 952 (2920 individual beets) | 6 (sugarbeet, cut, leaf, soil, damage, rot) | Monocular RGB in .jpg format (2120x1192 px) of post harvest and post storage sugarbeet.|
 
 </details>
 
