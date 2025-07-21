@@ -189,5 +189,6 @@ Annotated image data is the backbone of precision agricultural operations such a
 | [Twisted Fields - Acorn](https://github.com/Twisted-Fields/acorn-robot-electronics) | Robotic Platform | Acorn is a solar-powered, light-weight, and open source Precision Farming Rover (PFR) for in-field use. |
 | [Insect Detect](https://maxsitt.github.io/insect-detect-docs/#background) | Insect monitoring | Build your own insect-detecting camera trap for automated monitoring |
 |[StickyPi](https://doc.sticky-pi.com/)|Insect monitoring|A high-frequency smart insect trap to study daily activity in the field|
+|[Low Cost Water Quality Sampler](https://github.com/CSU-Agricultural-Water-Quality-Program/low-cost-iot-water-sampler)|Water quality monitoring|A low-cost, automated water sampler over IoT for near-real-time water quality research developed by the Colorado State University Agricultural Water Quality Program|
 
 </details>
