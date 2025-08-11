@@ -169,9 +169,11 @@ Annotated image data is the backbone of precision agricultural operations such a
 <details>
 <summary>Tools for developing hardware and integrating into agricultural machinery.</summary>
 <br>
+
 | Project Name | Task |  Description |
 |--------------|------|--------------|
 | [AgISOStack++](https://agisostack.com/) | ISOBUS Integration | AgIsoStack++ is a free and open source library that provides easy and robust ISO 11783 and J1939 CAN communication functionality using C++ |
+
 </details>
 
 # Algorithm Development
