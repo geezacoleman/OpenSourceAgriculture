@@ -20,7 +20,8 @@ If you see a dataset is missing or you find an error in the tables, please submi
   * [Post Harvest](#post-harvest)
   * [Text Datasets](#text-datasets)
 * [Large language models](#large-language-models) 
-* [Geospatial tools](#geospatial-tools) 
+* [Geospatial tools](#geospatial-tools)
+* [Hardware Development](#hardware-development)
 * [Algorithm Development](#algorithm-development)
 * [In-field Deployment](#in-field-deployment)
 
@@ -164,6 +165,15 @@ Annotated image data is the backbone of precision agricultural operations such a
 
 </details>
 
+# Hardware Development
+<details>
+<summary>Tools for developing hardware and integrating into agricultural machinery.</summary>
+<br>
+| Project Name | Task |  Description |
+|--------------|------|--------------|
+| [AgISOStack++](https://agisostack.com/) | ISOBUS Integration | AgIsoStack++ is a free and open source library that provides easy and robust ISO 11783 and J1939 CAN communication functionality using C++ |
+</details>
+
 # Algorithm Development
 <details>
 <summary>Tools for improving the algorithm development process.</summary>
@@ -187,9 +197,11 @@ Annotated image data is the backbone of precision agricultural operations such a
 |--------------|------|--------------|
 | [AgOpenGPS](https://discourse.agopengps.com/) | GPS Guidance | A globally popular open-source GPS guidance system for tractors and implements, with substantial user base and development community. AgOpenGPS features a substantial user interface for additional features such as variable rate and mapping. |
 | [OpenWeedLocator (OWL)](https://github.com/geezacoleman/OpenWeedLocator) | Site-specific weed control | A DIY weed detection device based around the Raspberry Pi and Google Coral. Complete instructions for building and deploying. |
-| [Twisted Fields - Acorn](https://github.com/Twisted-Fields/acorn-robot-electronics) | Robotic Platform | Acorn is a solar-powered, light-weight, and open source Precision Farming Rover (PFR) for in-field use. |
+| [Twisted Fields - Acorn](https://github.com/Twisted-Fields/acorn-robot-electronics) | Robotic platform | Acorn is a solar-powered, light-weight, and open source Precision Farming Rover (PFR) for in-field use. |
 | [Insect Detect](https://maxsitt.github.io/insect-detect-docs/#background) | Insect monitoring | Build your own insect-detecting camera trap for automated monitoring |
 |[StickyPi](https://doc.sticky-pi.com/)|Insect monitoring|A high-frequency smart insect trap to study daily activity in the field|
 |[Low Cost Water Quality Sampler](https://github.com/CSU-Agricultural-Water-Quality-Program/low-cost-iot-water-sampler)|Water quality monitoring|A low-cost, automated water sampler over IoT for near-real-time water quality research developed by the Colorado State University Agricultural Water Quality Program|
+|[Mothbox](https://digital-naturalism-laboratories.github.io/Mothbox/)| Insect monitoring | A low-cost, high performance insect monitor based on the Rasoberry Pi, Arducam 64MP camera with automatic image collection and analysis. |
+
 
 </details>
