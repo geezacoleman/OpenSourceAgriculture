@@ -174,6 +174,7 @@ Annotated image data is the backbone of precision agricultural operations such a
 | Project Name | Task |  Description |
 |--------------|------|--------------|
 | [font.ag](https://github.com/Open-Ag-Tools/font.ag) | Ag-specific icons | Font.AG is an open-source agricultural icon font, designed to provide scalable vector icons for modern agricultural applications. |
+| [Lex Icons](https://lexiconoffood.com/regen-ag/lex-icons/) | Food systems icons | A collection of peer-reviewed visual language of terms and machine readable icons |
 
 </details>
 
