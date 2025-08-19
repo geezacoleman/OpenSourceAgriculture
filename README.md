@@ -21,6 +21,7 @@ If you see a dataset is missing or you find an error in the tables, please submi
   * [Text Datasets](#text-datasets)
 * [Large language models](#large-language-models) 
 * [Geospatial tools](#geospatial-tools)
+* [Software Development](#software-development)
 * [Hardware Development](#hardware-development)
 * [Algorithm Development](#algorithm-development)
 * [In-field Deployment](#in-field-deployment)
@@ -162,6 +163,17 @@ Annotated image data is the backbone of precision agricultural operations such a
 | Project Name | Task |  Description |
 |--------------|------|--------------|
 | [OpenET FARMS Platform](https://openet.gitbook.io/docs/additional-resources/farms) | Landscape-scale evapotranspiration data analysis | Farm and Ranch Management Support (FARMS) system enables the easy access and use (analysis, reports) of evapotranspiration (ET) data from openET. Limited to western USA |
+
+</details>
+
+# Software Development
+<details>
+<summary>Agriculture-specific tools for developing software.</summary>
+<br>
+
+| Project Name | Task |  Description |
+|--------------|------|--------------|
+| [font.ag](https://github.com/Open-Ag-Tools/font.ag) | Ag-specific icons | Font.AG is an open-source agricultural icon font, designed to provide scalable vector icons for modern agricultural applications. |
 
 </details>
 
