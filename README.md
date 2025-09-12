@@ -19,7 +19,8 @@ If you see a dataset is missing or you find an error in the tables, please submi
   * [Fruit Counting](#fruit-counting)
   * [Post Harvest](#post-harvest)
   * [Text Datasets](#text-datasets)
-* [Large language models](#large-language-models) 
+* [Large language models](#large-language-models)
+* [Foundation models](#foundation-models) 
 * [Geospatial tools](#geospatial-tools)
 * [Software Development](#software-development)
 * [Hardware Development](#hardware-development)
@@ -94,6 +95,7 @@ Annotated image data is the backbone of precision agricultural operations such a
 | Dataset | Task | Image Number | Classes | Description |
 |---------|------|--------------|---------|-----------|
 | [Global Wheat Head Dataset](http://www.global-wheat.com/)| Object detection/segmentation | GWHD2020 - 4,700, GWHD2021 - 6,422 | wheat heads | A field-collected dataset with wheat heads annotated with either bounding boxes (2020) or segmentation (2021). The GWHD2021 builds on the GWHD2020 by adding 1722 images and segmentation level annotations. Both can be downloaded from the link provided. |
+| [ImAg4Wheat](https://huggingface.co/datasets/PheniX-Lab/ImAg4Wheat) | Pre-training foundation models | 2.5 M | Unlabelled | Comprises 2.5 million high-resolution images collected over a decade from breeding and experimental fields, spanning more than 2,000 genotypes and 500 distinct environmental conditions across 30 global sites. |
 
 </details>
 
@@ -145,7 +147,7 @@ Annotated image data is the backbone of precision agricultural operations such a
 
 # Large Language Models
 <details>
-<summary>Tools related to use, analysis, development of large language (and vision) models.</summary>
+<summary>Tools (and models) related to use, analysis, development of large language (and vision) models.</summary>
 <br>
 
 | Project Name | Task |  Description |
@@ -154,6 +156,18 @@ Annotated image data is the backbone of precision agricultural operations such a
 | [Agronomy Arena](https://agronomyarena.com/) | LLM comparison tool for agronomy | Provide an agricultural/plant science question to the model, 2 random AI models are selected to answer, then vote on which one you think is the most helpful response |
 
 </details>
+
+## Foundation Models
+<details>
+<summary>Open-access foundation models for agriculture</summary>
+<br>
+
+| Model Name | Task | Training Approach | 
+|---------|------|--------------|
+| [FoMo4Wheat](https://fomo4wheat.phenix-lab.com/) | Wheat image analysis | ViT-based, 2-stage. Pre-train ViT-G on all data with DinoV2 init weights. Teacher-student training for L/B models. Freeze backbone, train lightweight adapter head on labelled data for specific tasks. |
+
+</details>
+
 
 # Geospatial Tools
 <details>
