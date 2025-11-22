@@ -18,6 +18,7 @@ If you see a dataset is missing or you find an error in the tables, please submi
   * [Crop Phenotyping](#crop-phenotyping)
   * [Fruit Counting](#fruit-counting)
   * [Post Harvest](#post-harvest)
+  * [3D/Point Cloud](#3dpoint-cloud)
   * [Text Datasets](#text-datasets)
 * [Large language models](#large-language-models)
 * [Foundation models](#foundation-models) 
@@ -60,6 +61,8 @@ Annotated image data is the backbone of precision agricultural operations such a
 | [Weed-AI](https://weed-ai.sydney.edu.au)| All  | Hosting platform |     || Includes over 30,000 images with bounding box annotation sourced from datasets across the internet |
 | [WeedMap](https://github.com/viariasv/weedMap)| Segmentation  | 10,196       | 2            | sugar beet| |
 | [WeedNet](https://github.com/inkyusa/weedNet)| Segmentation  | 155| 2| sugar beet, unspecified weeds| |
+| [WE3DS](https://zenodo.org/records/7457983) | Semantic Segmentation | 2,568 | 18 | 7 crops + 10 weeds + soil | First RGB-D dataset for multi-class plant species semantic segmentation in crop farming. High-resolution (1600×1140) images with hand-annotated ground-truth masks. Achieved 70.7% mIoU. Includes broad bean, soybean, corn, milk thistle and various weed species. | [Paper](https://doi.org/10.3390/s23052713) |
+| [Blackgrass in Wheat/Barley](https://arxiv.org/abs/2405.02218) | Classification | 15,000+ | 2 | Blackgrass, wheat, barley | Multispectral fine-grained classification dataset for detecting blackgrass (Alopecurus myosuroides) in wheat and barley. Eastern England Blackgrass Dataset addresses monocot-to-monocot discrimination problem. Uses CNN and transformer architectures. | [Paper](https://arxiv.org/abs/2405.02218) |
 
 </details>
 
@@ -96,6 +99,7 @@ Annotated image data is the backbone of precision agricultural operations such a
 |---------|------|--------------|---------|-----------|
 | [Global Wheat Head Dataset](http://www.global-wheat.com/)| Object detection/segmentation | GWHD2020 - 4,700, GWHD2021 - 6,422 | wheat heads | A field-collected dataset with wheat heads annotated with either bounding boxes (2020) or segmentation (2021). The GWHD2021 builds on the GWHD2020 by adding 1722 images and segmentation level annotations. Both can be downloaded from the link provided. |
 | [ImAg4Wheat](https://huggingface.co/datasets/PheniX-Lab/ImAg4Wheat) | Pre-training foundation models | 2.5 M | Unlabelled | Comprises 2.5 million high-resolution images collected over a decade from breeding and experimental fields, spanning more than 2,000 genotypes and 500 distinct environmental conditions across 30 global sites. |
+| [RiceSEG](https://www.global-rice.com) | Semantic Segmentation | 3,078 annotated (from ~50,000 collected) | 6 | First comprehensive multiclass rice semantic segmentation dataset. Ground-based high-resolution images from 5 major rice-growing countries (China, Japan, India, Philippines, Tanzania). Six classes: background, green vegetation, senescent vegetation, panicle, weeds, duckweed. China subdataset spans all major genotypes from northeastern to southern regions. Benchmarked with CNN and transformer models; challenges remain during reproductive stage with complex canopy structures. Covers rice (6,000+ genotypes across all growth stages). | [Paper](https://doi.org/10.1016/j.plaphe.2025.100099) |
 
 </details>
 
@@ -131,6 +135,18 @@ Annotated image data is the backbone of precision agricultural operations such a
 | Dataset | Task | Image Number | Classes | Description |
 |---------|------|--------------|---------|-------------|
 | [SemanticSugarBeets](https://github.com/semanticsugarbeets/semanticsugarbeets) | Instance segmentation | 952 (2920 individual beets) | 6 (sugarbeet, cut, leaf, soil, damage, rot) | Monocular RGB in .jpg format (2120x1192 px) of post harvest and post storage sugarbeet.|
+
+</details>
+
+## 3D/Point Cloud
+<details>
+<summary>Open-access 3D point cloud datasets for agricultural plant analysis</summary>
+<br>
+
+| Dataset | Task | Point Cloud Number | Classes | Species | Description | Paper |
+|---------|------|-------------------|---------|---------|-------------|-------|
+| [Crops3D](https://www.nature.com/articles/s41597-024-04290-0) | Classification/Segmentation | 1,230 | 8 | Maize, rice, wheat, soybean, cotton, rapeseed, tomato, sweet pepper | First comprehensive 3D crop dataset supporting instance segmentation, plant type classification, and organ segmentation. Includes monocots (maize, rice, wheat). Notes that rice and wheat with elongated narrow leaves lack distinct features in images, making 3D scanning essential. | [Paper](https://www.nature.com/articles/s41597-024-04290-0) |
+| [PlantNet/PSegNet Dataset](https://github.com/Huang2002200/PlantNet-and-PSegNet) | Semantic/Instance Segmentation | 546 | 3 species | Sorghum (129 samples), tomato, tobacco | Point cloud dataset with xyz coordinates plus instance, semantic, and object labels. Includes 20 days of data across 5 environmental conditions. Sorghum represents monocot samples. Achieves 93.96% mean IoU. | [GitHub](https://github.com/Huang2002200/PlantNet-and-PSegNet/) |
 
 </details>
 
