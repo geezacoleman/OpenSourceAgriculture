@@ -33,6 +33,16 @@ Annotated image data is the backbone of precision agricultural operations such a
 
 ## Weeds
 <details>
+<summary>Open-access datasets of weed phenology</summary>
+<br>
+
+| Dataset | Task | Description |
+|---------|------|--------------|
+| [OPheno](https://huggingface.co/OPheno) | Open-source weed phenology datasets | OPheno aggregates and curates observations related to weed emergence and phenology to support research, education, and modeling across diverse environments and management systems. |
+
+</details>
+
+<details>
 <summary>Open-access image datasets of weeds</summary>
 <br>
 
