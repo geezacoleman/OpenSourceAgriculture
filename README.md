@@ -262,6 +262,7 @@ Annotated image data is the backbone of precision agricultural operations such a
 |[Mothbox](https://digital-naturalism-laboratories.github.io/Mothbox/)| Insect monitoring | A low-cost, high performance insect monitor based on the Rasoberry Pi, Arducam 64MP camera with automatic image collection and analysis. |
 |[Laudando & Associates L&Aser](https://github.com/Laudando-Associates-LLC/LASER)| Laser weeding | An open-source implementation of a beta version of the L&Aser |
 |[FarmBot](https://farm.bot/)| Gardening robot | A gantry-style robot for monitoring and maintaining a raised garden bed. Purchasable as a kit or DIY |
+| [HealthyCropping](https://github.com/keylorpineda/healthycropping) | Crop disease diagnosis | Offline-first Android app (in development) that detects coffee, cacao and banana diseases from phone photos using on-device TensorFlow Lite models. |
 
 
 
